@@ -1,0 +1,4 @@
+[submodule "public"]
+	path = public
+	url = git@github-panda:pennyandalistair/pennyandalistair.github.io.git
+	branch = master
