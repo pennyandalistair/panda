@@ -1,0 +1,127 @@
+{{ "<!-- ASIDE -->" | safeHTML }}
+
+
+<section class="bg-light" id="rsvp">
+  <div class="container">
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 text-center">
+            <h2 class="section-heading">{{ with .Site.Params.aside.headline }}{{ . }}{{ end }}</h2>
+        </div>
+
+        <hr class="primary">
+        
+      <div class="col-lg-8 col-lg-offset-2 text-center">
+        <form class="form-horizontal" role="form"   action="https://docs.google.com/forms/d/1ri03adkTpwSjUXSc_ZD_stNF54-wZc3kWGMToypZq0o/formResponse" target="_self" method="POST" id="mG61Hd" onsubmit="">
+
+          <div class="form-group">
+            <label for="inputName" class="col-lg-2 control-label">Name *</label>
+            <div class="col-lg-10">
+              <input type="text" class="form-control" id="inputName" name="entry.751649853" placeholder="Your Name">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="inputEmail" class="col-lg-2 control-label">Email *</label>
+            <div class="col-lg-10">
+              <input type="email" class="form-control" id="inputEmail" name="entry.1837984145" placeholder="Your Email">
+            </div>
+          </div>
+
+          <div class="form-group" name="entry.2099858046">
+            <label for="attendance" class="col-lg-2 control-label">How many will join us?</label>
+            <div class="radio-inline">
+              <label><input type="radio" name="entry.2099858046" value="0">0 - decline with regret</label>
+            </div>
+            <div class="radio-inline">
+              <label><input type="radio" name="entry.2099858046" value="1">1</label>
+            </div>
+            <div class="radio-inline">
+              <label><input type="radio" name="entry.2099858046" value="2">2</label>
+            </div>
+            <div class="radio-inline">
+              <label><input type="radio" name="entry.2099858046" value="other">Other</label>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="moreGuestsDummy" class="col-lg-2 control-label"></label>
+            <div class="col-lg-10">
+              <input type="text" class="form-control" id="moreGuests" name="entry.1884201415" placeholder="If other, please specify how many guests">
+            </div>
+          </div>
+
+
+          <div class="form-group">
+            <label for="firstGuestName" class="col-lg-2 control-label">First guest</label>
+            <div class="col-lg-10">
+              <input type="text" class="form-control" id="firstGuestName" name="entry.780597460" placeholder="First guest's name">
+            </div>
+          </div>
+
+
+          <div class="form-group" name="entry.1680750664">
+            <label for="meal1" class="col-lg-2 control-label">First guest's meal choice</label>
+            <div class="radio-inline">
+              <label><input type="radio" name="entry.1680750664" value="Chicken">Chicken</label>
+            </div>
+            <div class="radio-inline">
+              <label><input type="radio" name="entry.1680750664" value="Lamb">Lamb</label>
+            </div>
+            <div class="radio-inline">
+              <label><input type="radio" name="entry.1680750664" value="Vegetarian">Vegetarian</label>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="firstGuestDietDummy" class="col-lg-2 control-label"></label>
+            <div class="col-lg-10">
+              <input type="text" class="form-control" name="entry.2146567269" placeholder="Please specify any dietary restrictions">
+            </div>
+          </div>
+
+
+          <div class="form-group">
+            <label for="secondGuestName" class="col-lg-2 control-label">Second guest</label>
+            <div class="col-lg-10">
+              <input type="text" class="form-control" id="secondGuestName" name="entry.1745730025" placeholder="Second guest's name">
+            </div>
+          </div>
+
+          <div class="form-group" name="entry.1500891476">
+            <label for="secondGuestMeal" class="col-lg-2 control-label">Second guest's meal choice</label>
+            <div class="radio-inline">
+              <label><input type="radio" name="entry.1500891476" value="Chicken">Chicken</label>
+            </div>
+            <div class="radio-inline">
+              <label><input type="radio" name="entry.1500891476" value="Lamb">Lamb</label>
+            </div>
+            <div class="radio-inline">
+              <label><input type="radio" name="entry.1500891476" value="Vegetarian">Vegetarian</label>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="secondGuestDietDummy" class="col-lg-2 control-label"></label>
+            <div class="col-lg-10">
+              <input type="text" class="form-control" id="secondGuestDiet" name="entry.1829113962" placeholder="Please specify any dietary restrictions">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="message" class="col-lg-2 control-label">Additional guests</label>
+            <div class="col-lg-10">
+              <textarea class="form-control" rows="5" id="additionalGuests" name="entry.1335690029" placeholder="List any additional guests who will be attending (including children), along with their meal choices and dietary restrictions."></textarea>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <div class="col-lg-offset-2 col-lg-10">
+              <button type="submit" class="btn btn-primary btn-lg btn-success" value="Send" id="submit" onclick="">RSVP</button>
+            </div>
+          </div>
+        </form>
+
+      </div>
+    </div>
+  </div>
+</section>

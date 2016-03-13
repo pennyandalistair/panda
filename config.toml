@@ -1,0 +1,106 @@
+# Site settings
+baseurl = "http://replace-this-with-your-hugo-site.com/"
+languageCode = "en-us"
+title = "Hugo Creative Theme"
+theme = "creative"
+
+[params]
+
+	# You can use Markdown syntax for urls [text](//url.to/source) for
+	# most longer texts.
+
+	# All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+	# for more icons. The icons are represented by their corresponding
+	# CSS class.
+
+	# All projects of the portfolio are defined in their own files.
+	# You can find example projects at 'exampleSite/data/projects'. Copy the 'projects'
+	# folder into the 'data' directory at the root of this Hugo site.
+	# For more informtion take a look at the README.
+
+	# To provide some metadata for search engines feel free to add a few
+    # information about you and your website.
+	name = "Penny and Alistair"
+	description = "Penny and Alistair wedding website"
+
+	# The path must be relative to the static folder
+	favicon = "favicon.ico"
+
+
+	# Navigation
+	[params.navigation]
+		brand = "P AND A"
+
+		[params.navigation.links]
+			about     = "About us"
+			services  = "Location"
+			portfolio = "Lodging"
+			contact   = "Contact"
+
+
+	# Hero section
+	[params.hero]
+		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
+		slogan     = "Penny and Alistair"
+		subtitle   = "OMG THIS IS TOO MUCH"
+		buttonText = "Tell me more!"
+		rsvpText = "RSVP"
+
+	# About section
+	[params.about]
+		headline    = "About us"
+		description = "We're nice people I promise."
+
+    # Portfolio modals
+	[params.portfolio.modal]
+        client = "Client"
+        date = "Date"
+        category = "Category"
+        buttonText = "Close"
+
+	# Service section
+	[params.services]
+		headline = "Nearby attractions"
+
+    [[params.services.list]]
+      icon = "fa-child"
+      title = "Canada's Wonderland"
+      description = "A theme park with many rollercoasters and other attractions."
+
+    [[params.services.list]]
+			icon = "fa-binoculars"
+			title = "Kortright center"
+			description = "A beautiful conservation center."
+
+		[[params.services.list]]
+      icon = "fa-map-o"
+      title = "Kleinberg"
+      description = "A cute little Canadian town, not to be confused with cute little British towns."
+
+		[[params.services.list]]
+      icon = "fa-subway"
+      title = "Concord Train Relay"
+      description = "It's about as exciting as it sounds."
+
+		[[params.services.list]]
+      icon = "fa-building"
+      title = "Vaughan Mills"
+      description = "One of the largest shopping centres in Canada with many outlet stores."
+
+    [[params.services.list]]
+			icon = "fa-compass"
+			title = "Humber River Trail"
+			description = "A serene hike following along the Humber river."
+
+    # Aside section
+	[params.aside]
+		headline = "RSVP"
+
+		[params.aside.button]
+			text = "And a button!"
+			link = "localhost:1313/"
+
+	# Contact section
+	[params.contact]
+		headline = "RSVP"
+		description = ""

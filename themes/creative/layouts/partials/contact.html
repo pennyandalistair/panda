@@ -1,0 +1,48 @@
+{{ "<!-- CONTACT -->" | safeHTML }}
+
+<!-- OPTION1: works, and is ugly as all hell -->
+
+<!--
+<section id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <h2 class="section-heading">{{ with .Site.Params.contact.headline }}{{ . }}{{ end }}</h2>
+                <hr class="primary">
+                <p>{{ with .Site.Params.contact.description }}{{ . | markdownify }}{{ end }}</p>
+            </div>
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <iframe src="https://docs.google.com/forms/d/1ri03adkTpwSjUXSc_ZD_stNF54-wZc3kWGMToypZq0o/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+            </div>
+        </div>
+    </div>
+</section>
+-->
+
+<div class="container">
+<div class="row">
+    <div class="col-lg-8 col-lg-offset-2 text-center">
+        <p>{{ with .Site.Params.contact.description }}{{ . | markdownify }}{{ end }}</p>
+    </div>
+    <div class="col-lg-8 col-lg-offset-2 text-center googlemap">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2877.593431563935!2d-79.61865474825915!3d43.8435273480168!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b243d1e9faa7f%3A0xeada72222bb5e959!2sMcMichael+Canadian+Art+Collection!5e0!3m2!1sen!2sus!4v1457842024404"
+      width="200" height="175" frameborder="0" style="border:0"></iframe>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Below has a marker but no details on the Marker
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h2>RSVP<i class="fa fa-paper-plane-o"></i></h2>
+        </div>
+    </div>
+    <div id="map-canvas"></div>
+</div>
+-->
+<!--Google Maps API-->
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDnycWatbGyK6ldFqErjFtko1yeMclNUOA&amp;sensor=true"></script>
