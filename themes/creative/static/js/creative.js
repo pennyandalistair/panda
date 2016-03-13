@@ -46,3 +46,7 @@
     new WOW().init();
 
 })(jQuery); // End of use strict
+
+function enableBtn(){
+   document.getElementById("submit").disabled = false;
+  }

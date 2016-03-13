@@ -1,6 +1,4 @@
 {{ "<!-- ASIDE -->" | safeHTML }}
-
-
 <section class="bg-light" id="rsvp">
   <div class="container">
     <div class="row">
@@ -114,9 +112,11 @@
             </div>
           </div>
 
+          <div class="g-recaptcha col-lg-offset-4 col-lg-10" data-sitekey="6Lc_oxoTAAAAALavHALxheVfAkwMExWoufA4GG5N" data-callback="enableBtn"></div>
+          <div id="recaptcha_answer"></div>
           <div class="form-group">
             <div class="col-lg-offset-2 col-lg-10">
-              <button type="submit" class="btn btn-primary btn-lg btn-success" value="Send" id="submit" onclick="">RSVP</button>
+              <button type="submit" class="btn btn-primary btn-lg btn-success" value="Send" id="submit" onclick="" disabled="disabled">RSVP</button>
             </div>
           </div>
         </form>
