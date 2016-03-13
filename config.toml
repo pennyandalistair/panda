@@ -32,10 +32,10 @@ theme = "creative"
 		brand = "P AND A"
 
 		[params.navigation.links]
-			about     = "About us"
-			services  = "Location"
-			portfolio = "Lodging"
-			contact   = "Contact"
+			about     		= "About us"
+			details  			= "details"
+			attractions 	= "attractions"
+			rsvp  	 			= "RSVP"
 
 
 	# Hero section
@@ -95,10 +95,6 @@ theme = "creative"
     # Aside section
 	[params.aside]
 		headline = "RSVP"
-
-		[params.aside.button]
-			text = "And a button!"
-			link = "localhost:1313/"
 
 	# Contact section
 	[params.contact]
