@@ -19,18 +19,52 @@
 </section>
 -->
 
-<div class="container">
-<div class="row">
+
+<!--
     <div class="col-lg-8 col-lg-offset-2 text-center">
         <p>{{ with .Site.Params.contact.description }}{{ . | markdownify }}{{ end }}</p>
     </div>
-    <div class="col-lg-8 col-lg-offset-2 text-center googlemap">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2877.593431563935!2d-79.61865474825915!3d43.8435273480168!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b243d1e9faa7f%3A0xeada72222bb5e959!2sMcMichael+Canadian+Art+Collection!5e0!3m2!1sen!2sus!4v1457842024404"
-      width="200" height="175" frameborder="0" style="border:0"></iframe>
-    </div>
+-->
+<hr>
+<div class="col-sm-12 map">
+  <div class="google-map-canvas" id="map-canvas">
   </div>
 </div>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-12">
+      <div class="row">
+        <div class="col-xs-6 text-center">
 
+          <h2><img src="img/heart.svg" style="width: 25px" />  Venue</h2>
+          <address>
+            <strong>McMichael Art Collection</strong><br>
+            10365 Islington Avenue<br>
+            Kleinburg, Ontario, Canada<br>
+            L0J 1C0<br>
+            <a href="http://mcmichael.com/visit/#directions">Directions</a><br>
+            Telephone: 1-905-893-1121<br>
+            toll free: 1-888-213-1121<br>
+            <a href="mailto:info@mcmichael.com?Subject=Inquiry" target="_top">info@mcmichael.com</a>
+          </address>
+        </div>
+        <div class="col-xs-6 text-center">
+          <h2><img src="img/hotel.svg" style="width: 25px" />  Hotel</h2>
+          <address>
+            <strong>Novotel Hotel Vaughan</strong><br>
+             200 Bass Pro Mills Drive<br>
+            Vaughan, Ontario, Canada<br>
+            L4K 0B9<br>
+            <a href="http://www.novotel.com/gb/hotel-7157-novotel-toronto-vaughan/index.shtml#accessPart">Directions</a><br>
+            Telephone: 1-905-660-0212<br>
+            toll free: 1-866-630-2680<br>
+            <a href="mailto:novotel.torontovaughan@accor.com?Subject=Reservation%20Request%20for%20Feng%20and%20Johnson%20Wedding" target="_top">novotel.torontovaughan@accor.com</a>
+          </address>
+        </div><!--/col-6-->
+      </div><!--/row-->
+    </div><!--/col-5-->
+  </div>
+</div>
 
 
 <!-- Below has a marker but no details on the Marker
@@ -44,5 +78,32 @@
     <div id="map-canvas"></div>
 </div>
 -->
+
+<!-- here is the embedded iframe
+
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2877.593431563935!2d-79.61865474825915!3d43.8435273480168!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b243d1e9faa7f%3A0xeada72222bb5e959!2sMcMichael+Canadian+Art+Collection!5e0!3m2!1sen!2sus!4v1457842024404"
+  width="200" height="175" frameborder="0" style="border:0"></iframe>
+
+
+I think you also need:
+
+
+/* @group google map */
+.googlemap {
+  position: relative;
+  padding-bottom: 50%;
+  height: 0;
+  overflow: hidden;
+}
+.googlemap iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+/* @end */
+-->
+
 <!--Google Maps API-->
-<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDnycWatbGyK6ldFqErjFtko1yeMclNUOA&amp;sensor=true"></script>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>

@@ -1,4 +1,12 @@
-<section class="no-padding" id="details">
+<section id="details">
+  <div class="container">
+      <div class="row">
+        <h2 class="section-heading text-center">{{ with .Site.Params.details.headline }}{{ . }}{{ end }}</h2>
+        <p class="text-center">{{ with .Site.Params.details.description }}{{ . | markdownify }}{{ end }}</p>
+        <hr>
+
+    </div>
+  </div>
     <div class="container-fluid">
         <div class="row no-gutter">
             {{ range .Site.Data.projects }}

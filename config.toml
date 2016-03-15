@@ -42,21 +42,22 @@ theme = "creative"
 	[params.hero]
 		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
 		slogan     = "Penny and Alistair"
-		subtitle   = "OMG THIS IS TOO MUCH"
+		subtitle   = "September 24th, 2016"
 		buttonText = "Tell me more!"
 		rsvpText = "RSVP"
 
 	# About section
 	[params.about]
 		headline    = "About us"
-		description = "We're nice people I promise."
+		description1 = "We're nice people."
+		img1 = "img/pic1.png"
+		description2 = "I promise."
+		img2 = "img/pic2.png"
 
     # Portfolio modals
-	[params.portfolio.modal]
-        client = "Client"
-        date = "Date"
-        category = "Category"
-        buttonText = "Close"
+	[params.details]
+        headline = "Details"
+        description = "Click the pictures for more information."
 
 	# Service section
 	[params.services]
