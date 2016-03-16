@@ -1,7 +1,7 @@
 # Site settings
 baseurl = "http://pennyandalistair.github.io/"
 languageCode = "en-us"
-title = "Hugo Creative Theme"
+title = "Penny and Alistair"
 theme = "creative"
 
 [params]
