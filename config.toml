@@ -48,7 +48,7 @@ theme = "creative"
 
 	# About section
 	[params.about]
-		headline    = "About us"
+		headline    = "About"
 		description1 = "We're nice people."
 		img1 = "img/pic1.png"
 		description2 = "I promise."
