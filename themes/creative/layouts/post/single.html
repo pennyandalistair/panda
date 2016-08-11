@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+    <head>
+        {{ partial "head.html" . }}
+    </head>
+    <body id="page-top">
+
+        {{ partial "nav.html" . }}
+
+        {{ partial "content.html" . }}
+
+        {{ partial "modals.html" . }}
+        {{ partial "js.html" . }}
+    </body>
+
+    <footer>
+    <script src="validation-functions.js"></script>
+    </footer>
+</html>

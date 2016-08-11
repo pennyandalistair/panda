@@ -54,6 +54,11 @@ theme = "creative"
 		description2 = "I promise."
 		img2 = "img/pic2.png"
 
+	# travel details section
+	[params.content]
+		headline = "Planning a trip"
+		description = "A helpful guide"
+		
     # Portfolio modals
 	[params.details]
         headline = "Details"
@@ -62,6 +67,7 @@ theme = "creative"
 	# Service section
 	[params.services]
 		headline = "Nearby attractions"
+		description = "More detail can be found here: www.hello.com"
 
     [[params.services.list]]
       icon = "fa-child"
