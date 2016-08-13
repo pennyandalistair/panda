@@ -34,6 +34,7 @@ theme = "creative"
 		[params.navigation.links]
 			about     		= "About us"
 			details  			= "details"
+			trip  			= "trip"
 			attractions 	= "attractions"
 			rsvp  	 			= "RSVP"
 
@@ -58,7 +59,7 @@ theme = "creative"
 	[params.content]
 		headline = "Planning a trip"
 		description = "A helpful guide"
-		
+
     # Portfolio modals
 	[params.details]
         headline = "Details"

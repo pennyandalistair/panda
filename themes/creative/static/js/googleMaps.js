@@ -48,7 +48,7 @@ function initialize() {
     url: 'mcmichael.com',
     icon: {
         url: '/img/heart.svg',
-        scaledSize: new google.maps.Size(25, 25),
+        scaledSize: new google.maps.Size(40, 40),
         origin: new google.maps.Point(0,0),
         anchor: new google.maps.Point(0,12)
     },
@@ -60,7 +60,7 @@ function initialize() {
     url: '/',
     icon: {
         url: '/img/hotel.svg',
-        scaledSize: new google.maps.Size(30, 30),
+        scaledSize: new google.maps.Size(40, 40),
         anchor: new google.maps.Point(15, 0)
     },
     animation: google.maps.Animation.DROP

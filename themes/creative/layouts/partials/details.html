@@ -1,9 +1,9 @@
-<section id="details">
+<section class="bg-primary"  id="details">
   <div class="container">
       <div class="row">
         <h2 class="section-heading text-center">{{ with .Site.Params.details.headline }}{{ . }}{{ end }}</h2>
         <p class="text-center">{{ with .Site.Params.details.description }}{{ . | markdownify }}{{ end }}</p>
-        <hr>
+        <hr class="light">
 
       </div>
   </div>
