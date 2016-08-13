@@ -24,6 +24,14 @@ hr.light {
     border-color: #fff;
 }
 
+hr.muted {
+    border-color: #777;
+}
+
+hr.light-muted {
+    border-color: #DDD;
+}
+
 a {
     color: #f05f40;
     -webkit-transition: all .35s;
@@ -70,11 +78,15 @@ p {
 
 .bg-dark {
     color: #fff;
-    background-color: #222;
+    background-color: #000;
 }
 
 .text-faded {
     color: rgba(255,255,255,.7);
+}
+
+.text-light-muted {
+    color: #ddd;
 }
 
 section {

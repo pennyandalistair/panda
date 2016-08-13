@@ -1,13 +1,13 @@
 {{ "<!-- ABOUT -->" | safeHTML }}
-<section id="about">
+<section class="bg-dark" id="about">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 text-center">
-                <h2 class="section-heading">{{ with .Site.Params.about.headline }}{{ . }}{{ end }}</h2>
-                <hr class="primary">
+                <h2 class="section-heading text-light-muted">{{ with .Site.Params.about.headline }}{{ . }}{{ end }}</h2>
+                <hr class="light-muted">
                 <div class="row">
                   <div class="col-xs-12 text-center"> <!-- column 1 -->
-                    <p class="text-muted">{{ with .Site.Params.about.description1 }}{{ . | markdownify }} {{ end }}{{ with .Site.Params.about.description2 }}{{ . | markdownify }}{{ end }}</p>
+                    <p class="text-light-muted">{{ with .Site.Params.about.description1 }}{{ . | markdownify }} {{ end }}{{ with .Site.Params.about.description2 }}{{ . | markdownify }}{{ end }}</p>
                   </div>
                   <!-- use below for two column
                   <div class="col-xs-6">
