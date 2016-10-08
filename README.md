@@ -8,7 +8,9 @@ Creative theme: https://github.com/digitalcraftsman/hugo-creative-theme
 
 # Embedded Google form
 
-It was a bit tricky to get the embedded google form to work nicely. The relevant code is in the `aside.html` layout file in the creative theme folder directly: /themes/creative/layouts/partials/aside.html
+It was a bit tricky to get the embedded google form to work nicely. An iframe works and is dead simple, but doesn't integrate well with the rest of the website. I got my form to work by creating a form in Google Drive, then re-creating the same form in bootstrap, and then naming the elements in bootstrap with the exact same name as they had in the Google form. As a result, I could take advantage of the Google Form automatically sending everything to a spreadsheet, and have it look pretty.
+
+The relevant code is in the `aside.html` layout file in the creative theme folder directly: /themes/creative/layouts/partials/aside.html
 
 The steps were:
 
