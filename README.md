@@ -22,6 +22,8 @@ After creating the form, copy the "form response" version of the link:
 
 This needs to be placed in the `aside.html` file on line 12: https://github.com/pennyandalistair/panda/blob/434078be5203095df70c663592b99b74bb08bae3/themes/creative/layouts/partials/aside.html#L12
 
+You may also need to update the `id` on the same line.
+
 Next, each individual element needs to be updated. Let's look at my google form:
 
 ![Example Google Form](/etc/ss1.png?raw=true "Example Google Form being inspected")
